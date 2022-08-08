@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-        <title>weatherNow</title>
-    </head>
-    <body>
-        <header>
-            <h1>weatherNow</h1>
-        </header>
-        <main>
-            <div id="input-container" class="card" style="width: 18rem;">
-                <h3>Your Weather Forecast</h3>
-                <div class="card-body">
-                    <form id="city">
-                        <input id="inputBox" type="text" placeholder="City"> 
-                        <input type="submit" onsubmit="writeCity()" style="display: none;">
-                    </form>
-                    <ul id="listItem">
-                        Saved Cities:
-                    </ul>
-                </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <title>weatherNow</title>
+</head>
+
+<body>
+    <header>
+        <h1>weatherNow</h1>
+    </header>
+    <main>
+        <div id="input-container" class="card" style="width: 18rem;">
+            <h3 class="card-header">Weather Forecast</h3>
+            <div class="card-body">
+                <form id="city">
+                    <label class="form-label" for="city">City</label>
+                    <input name="city" id="city" type="text" autofocus="true" class="form-input" /> 
+                    <button type="submit" onsubmit="listCity()" class="btn">Submit</button>
+                </form>
+                <ul id="listItem">
+                    <p>Saved Cities:</p>
+                </ul>
             </div>
+        </div>
             
-        </main>
-    </body>
+    </main>
+<script src="./assets/js/script.js"></script>
+</body>
 </html>
