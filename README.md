@@ -13,6 +13,8 @@ A weather application where you can submit a city name and the application will 
 
 ## Links
 
+[chrisimata21.github.io/weathernow/](chrisimata21.github.io/weathernow/)
+
 ## Technologies
 
 - JavaScript
@@ -23,4 +25,5 @@ A weather application where you can submit a city name and the application will 
 - CSS
 
 ## Screenshots
+
 <img width="1470" alt="Screen Shot 2022-08-18 at 4 54 13 PM" src="https://user-images.githubusercontent.com/108028584/185516268-99a6e702-523b-456e-9c81-361f237c476b.png">
