@@ -13,7 +13,7 @@ A weather application where you can submit a city name and the application will 
 
 ## Links
 
-[chrisimata21.github.io/weathernow/](chrisimata21.github.io/weathernow/)
+[https://chrisimata21.github.io/weatherNow/](https://chrisimata21.github.io/weatherNow/)
 
 ## Technologies
 
