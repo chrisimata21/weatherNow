@@ -1,4 +1,4 @@
-const apiKey = "21adefc09b5ec5d7001ecfa091eb1fff"; 
+const apiKey = "ff22cce05ddb83c3402fd5ac3516da43"; 
 
 // Search Items
 let searchCity = $("#search-city");
